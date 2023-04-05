@@ -1,0 +1,150 @@
+
+Sterling@TheMachine MINGW64 ~
+$ mkdir gitVideo
+
+Sterling@TheMachine MINGW64 ~
+$ cd gitVideo
+
+Sterling@TheMachine MINGW64 ~/gitVideo
+$ touch index.html app.css
+
+Sterling@TheMachine MINGW64 ~/gitVideo
+$ git init
+Initialized empty Git repository in C:/Users/Travis/gitVideo/.git/
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git add .
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m 'add html and css file'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sterling@TheMachine.(none)')
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ rm index.html
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ touch app.js
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ ls
+app.css  app.js
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git add .
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m 'delete html and add js'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sterling@TheMachine.(none)')
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ ^C
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git add .
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sterling@TheMachine.(none)')
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ .gitconfig
+bash: .gitconfig: command not found
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ hidden .gitconfig file
+bash: hidden: command not found
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git config --global user.email "sterlingstrack18@gmail.com"
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m "initial commit"
+[master (root-commit) 9006a9b] initial commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.css
+ create mode 100644 app.js
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git remote add origin ^[[200~https://github.com/sterlingstrack2022/8-GitHub-Exercise
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git add .
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m "initial commit"
+On branch master
+nothing to commit, working tree clean
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git push -u orgin main
+error: src refspec main does not match any
+error: failed to push some refs to 'orgin'
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to '?[200~https://github.com/sterlingstrack2022/8-GitHub-Exercise'
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git remote add origin "github.com/sterlingstrack2022/8-GitHub-Exercise"
+error: remote origin already exists.
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ ^C
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git add .
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git commit -m "initial commit"
+On branch master
+nothing to commit, working tree clean
+
+Sterling@TheMachine MINGW64 ~/gitVideo (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to '?[200~https://github.com/sterlingstrack2022/8-GitHub-Exercise'
